@@ -43,3 +43,40 @@ It installs the Dependency Agent for collecting additional performance data.
 In Azure Portal, go to Application Insights > Live Metrics.
 Check logs in Log Analytics Workspace using Kusto Query Language (KQL).
 Would you like specific setup steps for your VM OS (Windows/Linux)?
+
+
+
+
+
+
+You said:
+Permission required to work on Azure Application Insight
+ChatGPT said:
+ChatGPT
+To work with Azure Application Insights, you need the appropriate permissions. The required permissions depend on the specific tasks you want to perform.
+
+1. Subscription-Level Permissions
+To manage Application Insights resources, you need permissions at the Azure Subscription or Resource Group level. The required roles include:
+
+Owner – Full access, including assigning roles.
+Contributor – Full access except assigning roles.
+Reader – Can view but not modify Application Insights data.
+2. Application Insights-Specific Permissions
+If you want to view and manage telemetry data, you need one of these roles:
+
+Role	Permissions
+Monitoring Reader	Read-only access to Application Insights data.
+Monitoring Contributor	Full access to manage Application Insights (except role assignments).
+Log Analytics Reader	Read-only access to logs and queries in Log Analytics Workspace.
+Log Analytics Contributor	Can read, write, and delete logs.
+3. VM Monitoring Permissions
+If you are configuring Application Insights for an Azure Virtual Machine, you also need permissions to manage VM insights:
+
+Virtual Machine Contributor – Allows full management of VMs, including installing monitoring agents.
+Azure Monitor Contributor – Allows enabling and managing Application Insights monitoring.
+To grant permissions:
+
+Go to Azure Portal > Subscription / Resource Group / Application Insights Resource.
+Access Control (IAM) > Add role assignment.
+Select Role (e.g., Monitoring Contributor).
+Assign to User, Group, or Managed Identity
