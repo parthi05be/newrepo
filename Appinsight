@@ -1,1 +1,13 @@
 
+Azure Application Insights is a powerful monitoring tool that provides comprehensive insights into the performance and usage of your applications[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/usage?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1"). Here are some key aspects it monitors:
+
+1. **Application Performance**: Tracks metrics like response times, failure rates, and throughput to help you understand how well your application is performing[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "2").
+2. **Availability**: Proactively monitors the availability and responsiveness of your application endpoints[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "2").
+3. **Failures**: Identifies and analyzes failures in your application to minimize downtime[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "2").
+4. **Usage**: Collects data on users, sessions, and events to understand how users interact with your application[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/usage?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1").
+5. **User Flows**: Visualizes user paths to identify high engagement areas and pinpoint issues[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/usage?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1").
+6. **Funnels**: Analyzes conversion rates to see where users drop off in a series of steps[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/usage?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1").
+7. **Code Analysis**: Provides tools like .NET Profiler and Snapshot Debugger to capture performance traces and debug snapshots[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "2").
+8. **Custom Metrics and Logs**: Allows you to configure and stream custom metrics and logs to Azure Monitoring Logs[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "2").
+
+Would you like to know more about any specific feature?
